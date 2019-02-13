@@ -16,4 +16,4 @@ def input_mentee(request):
     else:
         form = PostForm()
     
-    return render(request, 'mentee_new.html', {'form':form}) 
+    return render(request, 'mentee_new.html', {'form':form})
